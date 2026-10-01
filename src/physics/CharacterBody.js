@@ -61,8 +61,8 @@ export class CharacterBody {
     }
 
     const desiredTranslation = {
-      x: this.velocity.x * dt;
-      y: this.velocity.y * dt;
+      x: this.velocity.x * dt,
+      y: this.velocity.y * dt,
       z: this.velocity.z * dt
     };
 
